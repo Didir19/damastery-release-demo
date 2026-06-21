@@ -2,12 +2,12 @@
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "OrdersTableWrite",
+      "Sid": "OrdersTableFullAccess",
       "Effect": "Allow",
       "Action": [
-        "dynamodb:PutItem"
+        "dynamodb:*"
       ],
-      "Resource": "arn:aws:dynamodb:us-east-1:111122223333:table/orders"
+      "Resource": "*"
     }
   ]
 }
