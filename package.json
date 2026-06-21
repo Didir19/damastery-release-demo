@@ -1,0 +1,12 @@
+{
+  "name": "damastery-checkout-service",
+  "version": "1.0.0",
+  "description": "Demo checkout service for DevOps Agent release-readiness mastery test",
+  "main": "src/checkout.js",
+  "scripts": {
+    "test": "node test/checkout.test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0"
+  }
+}
